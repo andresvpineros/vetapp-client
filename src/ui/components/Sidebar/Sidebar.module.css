@@ -1,0 +1,9 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: #50577A;
+    max-width: 500px;
+    height: 92vh;
+    min-height: 640px;
+    border-radius: 25px;
+}

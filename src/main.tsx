@@ -5,5 +5,5 @@ import { Root } from './ui/Root'
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <Root />
-  </React.StrictMode>,
+  </React.StrictMode>
 )

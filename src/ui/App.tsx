@@ -1,11 +1,15 @@
-import { useState } from 'react'
-import './App.css'
+import { I18nextProvider } from 'react-i18next'
+import { RouterProvider } from 'react-router-dom'
+import { navigationRouter } from './navigationRouter'
+import i18n from '@/common/utils/i18nextConfiguration'
+import './assets/css/index.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className="App">HOLA</div>
+    <I18nextProvider i18n={i18n}>
+      <RouterProvider router={navigationRouter} />
+    </I18nextProvider>
   )
 }
 
